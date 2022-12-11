@@ -1,0 +1,85 @@
+/* for Mobile */
+@media only screen and (max-width: 600px) {
+
+    .right-box {
+        background: #000000c9;
+        padding: 3em 2em 0em 2em;
+        background-image: url(../images/form-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .form-heading {
+        color: #fff;
+        margin-bottom: 1em;
+    }
+
+    .input {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 0;
+        border-bottom: 1.7px solid rgb(255, 255, 255);
+        padding: 0 0 2px 0;
+        font-size: 11px;
+        color: #fff;
+    }
+
+    ::placeholder {
+        color: rgb(255, 255, 255);
+    }
+
+    .labl {
+        font-size: 11px;
+        font-weight: 800;
+        color: #ffffff;
+    }
+
+    .for-m {
+        margin-bottom: 1.5em;
+    }
+
+    .btn-box {
+        margin-top: 1em;
+    }
+
+    .s-btn {
+        border: 0;
+        outline: none;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 700;
+        transition: 0.5s;
+        background: none;
+    }
+
+    .arrow {
+        color: #e9ecef;
+        /* transform: translateX(10px); */
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+
+    .img-text {
+        font-size: 2em;
+        font-weight: 600;
+        color: #e9ecef;
+        text-align: -webkit-left;
+    }
+
+    .left-footer-txt p {
+        font-size: 7px;
+        font-weight: 300;
+        color: #adb5bd;
+        text-align: -webkit-right;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {}
